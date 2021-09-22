@@ -24,28 +24,3 @@ if parking_slots:
       getattr(new_car_park, function_call.lower()) (*function_arg)
 else:
   print 'This car park is not functional yet'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-- they might add new functions to car park
-- they might new attributes to a car
-- arguments to an existing function might change
-- is it possible they could change the instruction order in the future ?
-- instead of adding a query type all the time
-- 
-"""
